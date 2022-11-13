@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "nbGPsnwvqa/71eZYgzcfKiv0tsqWuiSTzYM/slkFhdYOYwt3jH0Ble+8jn4UMlJN2MTuU7t2F/VO9SfvKUwFXQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mahmoud.bouchefa\\Desktop\\c# workspace\\TodoList\\Application\\Application.Services\\Application.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mahmoud.bouchefa\\.nuget\\packages\\fluentvalidation\\11.3.0\\fluentvalidation.11.3.0.nupkg.sha512",
+    "C:\\Users\\mahmoud.bouchefa\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.3.0\\fluentvalidation.dependencyinjectionextensions.11.3.0.nupkg.sha512",
+    "C:\\Users\\mahmoud.bouchefa\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\mahmoud.bouchefa\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\mahmoud.bouchefa\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

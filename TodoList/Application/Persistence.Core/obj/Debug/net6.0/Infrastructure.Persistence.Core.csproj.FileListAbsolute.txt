@@ -1,0 +1,15 @@
+C:\Users\mahmoud.bouchefa\Desktop\c# workspace\TodoList\Application\Persistence.Core\bin\Debug\net6.0\Infrastructure.Persistence.Core.deps.json
+C:\Users\mahmoud.bouchefa\Desktop\c# workspace\TodoList\Application\Persistence.Core\bin\Debug\net6.0\Infrastructure.Persistence.Core.dll
+C:\Users\mahmoud.bouchefa\Desktop\c# workspace\TodoList\Application\Persistence.Core\bin\Debug\net6.0\Infrastructure.Persistence.Core.pdb
+C:\Users\mahmoud.bouchefa\Desktop\c# workspace\TodoList\Application\Persistence.Core\bin\Debug\net6.0\Core.dll
+C:\Users\mahmoud.bouchefa\Desktop\c# workspace\TodoList\Application\Persistence.Core\bin\Debug\net6.0\Core.pdb
+C:\Users\mahmoud.bouchefa\Desktop\c# workspace\TodoList\Application\Persistence.Core\obj\Debug\net6.0\Infrastructure.Persistence.Core.csproj.AssemblyReference.cache
+C:\Users\mahmoud.bouchefa\Desktop\c# workspace\TodoList\Application\Persistence.Core\obj\Debug\net6.0\Infrastructure.Persistence.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mahmoud.bouchefa\Desktop\c# workspace\TodoList\Application\Persistence.Core\obj\Debug\net6.0\Infrastructure.Persistence.Core.AssemblyInfoInputs.cache
+C:\Users\mahmoud.bouchefa\Desktop\c# workspace\TodoList\Application\Persistence.Core\obj\Debug\net6.0\Infrastructure.Persistence.Core.AssemblyInfo.cs
+C:\Users\mahmoud.bouchefa\Desktop\c# workspace\TodoList\Application\Persistence.Core\obj\Debug\net6.0\Infrastructure.Persistence.Core.csproj.CoreCompileInputs.cache
+C:\Users\mahmoud.bouchefa\Desktop\c# workspace\TodoList\Application\Persistence.Core\obj\Debug\net6.0\Infrastructure.Persistence.Core.csproj.CopyComplete
+C:\Users\mahmoud.bouchefa\Desktop\c# workspace\TodoList\Application\Persistence.Core\obj\Debug\net6.0\Infrastructure.Persistence.Core.dll
+C:\Users\mahmoud.bouchefa\Desktop\c# workspace\TodoList\Application\Persistence.Core\obj\Debug\net6.0\refint\Infrastructure.Persistence.Core.dll
+C:\Users\mahmoud.bouchefa\Desktop\c# workspace\TodoList\Application\Persistence.Core\obj\Debug\net6.0\Infrastructure.Persistence.Core.pdb
+C:\Users\mahmoud.bouchefa\Desktop\c# workspace\TodoList\Application\Persistence.Core\obj\Debug\net6.0\ref\Infrastructure.Persistence.Core.dll

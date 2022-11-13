@@ -1,0 +1,12 @@
+C:\Users\mahmoud.bouchefa\Desktop\c# workspace\TodoList\Application\Application.Services\bin\Debug\net6.0\Application.Services.deps.json
+C:\Users\mahmoud.bouchefa\Desktop\c# workspace\TodoList\Application\Application.Services\bin\Debug\net6.0\Application.Services.dll
+C:\Users\mahmoud.bouchefa\Desktop\c# workspace\TodoList\Application\Application.Services\bin\Debug\net6.0\Application.Services.pdb
+C:\Users\mahmoud.bouchefa\Desktop\c# workspace\TodoList\Application\Application.Services\obj\Debug\net6.0\Application.Services.csproj.AssemblyReference.cache
+C:\Users\mahmoud.bouchefa\Desktop\c# workspace\TodoList\Application\Application.Services\obj\Debug\net6.0\Application.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mahmoud.bouchefa\Desktop\c# workspace\TodoList\Application\Application.Services\obj\Debug\net6.0\Application.Services.AssemblyInfoInputs.cache
+C:\Users\mahmoud.bouchefa\Desktop\c# workspace\TodoList\Application\Application.Services\obj\Debug\net6.0\Application.Services.AssemblyInfo.cs
+C:\Users\mahmoud.bouchefa\Desktop\c# workspace\TodoList\Application\Application.Services\obj\Debug\net6.0\Application.Services.csproj.CoreCompileInputs.cache
+C:\Users\mahmoud.bouchefa\Desktop\c# workspace\TodoList\Application\Application.Services\obj\Debug\net6.0\Application.Services.dll
+C:\Users\mahmoud.bouchefa\Desktop\c# workspace\TodoList\Application\Application.Services\obj\Debug\net6.0\refint\Application.Services.dll
+C:\Users\mahmoud.bouchefa\Desktop\c# workspace\TodoList\Application\Application.Services\obj\Debug\net6.0\Application.Services.pdb
+C:\Users\mahmoud.bouchefa\Desktop\c# workspace\TodoList\Application\Application.Services\obj\Debug\net6.0\ref\Application.Services.dll
