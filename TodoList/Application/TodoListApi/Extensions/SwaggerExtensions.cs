@@ -37,9 +37,9 @@ namespace TodoListApi.Extensions
                 c.OperationFilter<SwaggerOperationFilter>(); // AutoRest uses operationId to determine the class name/method name for a given API
 
                 // Set the comments path for the Swagger JSON and UI.
-                var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
-                var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
-                c.IncludeXmlComments(xmlPath);
+               // var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+              //  var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+               // c.IncludeXmlComments(xmlPath);
             });
         }
 

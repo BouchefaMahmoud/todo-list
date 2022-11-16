@@ -1,7 +1,25 @@
+using Autofac;
+using Autofac.Core;
+using Autofac.Extensions.DependencyInjection;
+using MediatR;
+using Microsoft.Extensions.Hosting;
+using System.Reflection;
 using TodoListApi.Extensions;
 using TodoListApi.Filters;
 
 var builder = WebApplication.CreateBuilder(args);
+
+
+//Referencer les services de l'assembly Application.Services
+builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory())
+    .ConfigureContainer<ContainerBuilder>(builder =>
+{
+    builder.RegisterModule(new Application.Services.Modules.AutofacModule());
+});
+
+
+
+builder.Services.AddMediatR(Assembly.GetExecutingAssembly());
 
 // Add services to the container.
 
@@ -12,18 +30,20 @@ builder.Services.ConfigureService(builder.Configuration);
 
 builder.Services.ConfigureCors("CorsCong");
 
-builder.Services.ConfigureMediatR();
 //JWT
 builder.Services.ConfigureAuthentication(builder.Configuration);
 
 //DbContext
 builder.Services.ConfigureContext(builder.Configuration);
 
+//repositories
+builder.Services.ConfigureContextServices();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.ConfigureSwagger();
+//builder.Services.ConfigureSwagger();
+
 
 var app = builder.Build();
 
@@ -59,7 +79,7 @@ app.UseCors("CorsConf");
 
 
 
-app.ConfigureSwagger();
+//app.ConfigureSwagger();
 
 /*
 using var migrationSvcScope = app.ApplicationServices.GetRequiredService<IServiceScopeFactory>().CreateScope();

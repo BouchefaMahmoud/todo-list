@@ -13,11 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure.Persistence.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "..\Core\Core.csproj", "{CDE4ABD1-E54B-4042-AC15-8FD23B53CB00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Services", "..\Application.Services\Application.Services.csproj", "{522ADA92-2081-4F2D-98CE-84A44385D397}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.Services", "..\Application.Services\Application.Services.csproj", "{522ADA92-2081-4F2D-98CE-84A44385D397}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Query.interfaces", "..\Query.interfaces\Query.interfaces.csproj", "{4AF5ED20-295A-4D51-98B1-2D3A6366E1E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Query.interfaces", "..\Query.interfaces\Query.interfaces.csproj", "{4AF5ED20-295A-4D51-98B1-2D3A6366E1E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Query.Services", "..\Query.Services\Query.Services.csproj", "{7590870E-2CF3-49BC-9FDA-146E08AEE6E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Query.Services", "..\Query.Services\Query.Services.csproj", "{7590870E-2CF3-49BC-9FDA-146E08AEE6E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Services.Modules", "..\Application.Services.Modules\Application.Services.Modules.csproj", "{126EC25C-38A9-4050-A760-CCAF56A30C5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{7590870E-2CF3-49BC-9FDA-146E08AEE6E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7590870E-2CF3-49BC-9FDA-146E08AEE6E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7590870E-2CF3-49BC-9FDA-146E08AEE6E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{126EC25C-38A9-4050-A760-CCAF56A30C5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{126EC25C-38A9-4050-A760-CCAF56A30C5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{126EC25C-38A9-4050-A760-CCAF56A30C5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{126EC25C-38A9-4050-A760-CCAF56A30C5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

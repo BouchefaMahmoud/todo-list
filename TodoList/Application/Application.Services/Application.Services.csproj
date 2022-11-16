@@ -17,4 +17,10 @@
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+    <ProjectReference Include="..\Query.interfaces\Query.interfaces.csproj" />
+    <ProjectReference Include="..\Query.Services\Query.Services.csproj" />
+  </ItemGroup>
+
 </Project>
