@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "t7zgfmbL+F1qCwrcXqzI3MAkr12QUOxqPHhgcLwx0RQmD6faaw4HTZcSQ8JreBSP77ujzfEobEKmEkB8mhY0Ow==",
+  "dgSpecHash": "dJ5q3407gh6qC1xMla6o1o0hxmlqpxYsl19RgSPDkvviGM56wjOPsW0ipS0cMcDEqNVT/6GdClhjdxER9oFZRQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mahmoud.bouchefa\\Desktop\\c# workspace\\TodoList\\Application\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\mahmoud.bouchefa\\Desktop\\c# workspace\\app\\TodoList\\Application\\Domain\\Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,5 +1,4 @@
 ﻿using Core;
-using Microsoft.EntityFrameworkCore;
 
 namespace Persistence.Core
 {

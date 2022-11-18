@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mahmoud.bouchefa\\Desktop\\c# workspace\\TodoList\\Application\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\mahmoud.bouchefa\\Desktop\\c# workspace\\app\\TodoList\\Application\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\Users\\mahmoud.bouchefa\\Desktop\\c# workspace\\TodoList\\Application\\Domain\\Domain.csproj",
+      "projectPath": "C:\\Users\\mahmoud.bouchefa\\Desktop\\c# workspace\\app\\TodoList\\Application\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\mahmoud.bouchefa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mahmoud.bouchefa\\Desktop\\c# workspace\\TodoList\\Application\\Domain\\obj\\",
+      "outputPath": "C:\\Users\\mahmoud.bouchefa\\Desktop\\c# workspace\\app\\TodoList\\Application\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -59,8 +59,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\mahmoud.bouchefa\\Desktop\\c# workspace\\TodoList\\Application\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\mahmoud.bouchefa\\Desktop\\c# workspace\\TodoList\\Application\\Core\\Core.csproj"
+            "C:\\Users\\mahmoud.bouchefa\\Desktop\\c# workspace\\app\\TodoList\\Application\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\mahmoud.bouchefa\\Desktop\\c# workspace\\app\\TodoList\\Application\\Core\\Core.csproj"
             }
           }
         }
