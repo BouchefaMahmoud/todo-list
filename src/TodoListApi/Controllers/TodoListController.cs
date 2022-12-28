@@ -1,8 +1,10 @@
 ﻿using Application.Services.UseCases.AddTodoList;
+using Application.Services.UseCases.GetAllTodoLists;
+using Application.Services.UseCases.GetTodoListById;
+using Domain.Entities;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace TodoListApi.Controllers
 {
@@ -20,16 +22,18 @@ namespace TodoListApi.Controllers
 
         // GET: api/<TodoListController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public async Task<ActionResult<IEnumerable<Todo>>> Get()
         {
-            return new string[] { "value1", "value2" };
+            var result = await _mediator.Send(new GetAllTodoListsRequest());
+            return Ok(result);
         }
 
         // GET api/<TodoListController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public async Task<ActionResult<Todo>> Get(Guid id)
         {
-            return "value";
+            var result = await _mediator.Send(new GetTodoListByIdRequest(id));
+            return Ok(result);
         }
 
         // POST api/<TodoListController>

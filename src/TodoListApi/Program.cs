@@ -1,9 +1,8 @@
+using System.Reflection;
+using Application.Services.Modules;
 using Autofac;
-using Autofac.Core;
 using Autofac.Extensions.DependencyInjection;
 using MediatR;
-using Microsoft.Extensions.Hosting;
-using System.Reflection;
 using TodoListApi.Extensions;
 using TodoListApi.Filters;
 
@@ -13,24 +12,22 @@ var builder = WebApplication.CreateBuilder(args);
 //Referencer les services de l'assembly Application.Services
 builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory())
     .ConfigureContainer<ContainerBuilder>(builder =>
-{
-    builder.RegisterModule(new Application.Services.Modules.AutofacModule());
-});
-
+    {
+        builder.RegisterModule(new AutofacModule());
+    });
 
 
 builder.Services.AddMediatR(Assembly.GetExecutingAssembly());
 
-// Add services to the container.
 
 builder.Services.AddControllers(options => options.Filters.Add(new ApiExceptionFilterAttribute()));
 
-//Inject diffrents services
+
 builder.Services.ConfigureService(builder.Configuration);
+
 
 builder.Services.ConfigureCors("CorsCong");
 
-//JWT
 builder.Services.ConfigureAuthentication(builder.Configuration);
 
 //DbContext
@@ -59,10 +56,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 
-
 app.MapControllers();
-
-
 
 
 if (app.Environment.IsDevelopment())
@@ -71,14 +65,13 @@ if (app.Environment.IsDevelopment())
 }
 else
 {
-    app.UseHttpsRedirection();  // Autorest/NSwag won't work if redirect are enabled     
+    app.UseHttpsRedirection(); // Autorest/NSwag won't work if redirect are enabled     
 }
 
 app.UseRouting();
-app.UseAuthentication();        // Attention Authentication before Authorization
+app.UseAuthentication(); // Attention Authentication before Authorization
 app.UseAuthorization();
 app.UseCors("CorsConf");
-
 
 
 //app.ConfigureSwagger();

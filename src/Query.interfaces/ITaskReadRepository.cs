@@ -3,7 +3,7 @@ using Core;
 
 namespace Query.interfaces
 {
-    public interface ITaskReadRepository
+    public interface ITaskReadRepository : IRepository<TaskItem>
     {
     }
 }
